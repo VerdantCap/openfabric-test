@@ -102,41 +102,6 @@ The Streamlit web interface provides an intuitive way to interact with the appli
 
 The interface also includes a "Memory" tab where you can view and search through your past creations.
 
-## 🌐 Using the API
-
-If you prefer to use the API directly, you can access the Swagger UI at:
-
-```
-http://localhost:8888/swagger-ui/#/App/post_execution
-```
-
-### Example Request
-
-```json
-{
-  "prompt": "Make me a glowing dragon standing on a cliff at sunset.",
-  "attachments": ["string"]
-}
-```
-
-### Example Response
-
-```json
-{
-  "message": "{
-    \"status\": \"success\",
-    \"message\": \"Successfully processed your prompt!\",
-    \"details\": {
-      \"prompt\": \"Make me a glowing dragon standing on a cliff at sunset.\",
-      \"expanded_prompt\": \"Make me a glowing dragon standing on a cliff at sunset., with dramatic lighting, vibrant colors, detailed textures, 4K resolution, professional photography, trending on artstation\",
-      \"image_path\": \"output/12345678-1234-5678-1234-567812345678_image.png\",
-      \"model_path\": \"output/12345678-1234-5678-1234-567812345678_model.glb\",
-      \"processing_time\": \"15.23 seconds\"
-    }
-  }"
-}
-```
-
 ## 🧠 Memory System
 
 The application features a sophisticated memory system that operates on two levels:
@@ -300,27 +265,3 @@ Provides a user-friendly web interface:
 5. **Streamlit Errors**
    - If you encounter `AttributeError: module 'streamlit' has no attribute 'experimental_rerun'`, update to the latest version of Streamlit
    - The application now uses `st.rerun()` instead of the deprecated `st.experimental_rerun()`
-
-## 🔮 Future Enhancements
-
-Potential improvements for future versions:
-
-1. **Enhanced User Interface**
-   - Implement drag-and-drop functionality for uploading reference images
-   - Add animation controls for 3D models
-
-2. **Voice Interaction**
-   - Implement voice-to-text for natural interaction
-   - Add text-to-speech for system responses
-
-3. **Enhanced LLM Integration**
-   - Support for more local LLM options
-   - Fine-tuning capabilities for specific domains
-
-4. **Deployment Improvements**
-   - Add Kubernetes deployment configuration
-   - Implement CI/CD pipeline for automated testing and deployment
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
