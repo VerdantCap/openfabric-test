@@ -1,0 +1,68 @@
+{
+  "super-user": [
+    {
+      "request_id": "5d8e6942-7479-4583-b66b-1c93f6892a54",
+      "prompt": "Plz generate big whale images\n",
+      "expanded_prompt": "Plz generate big whale images\n, with dramatic lighting, vibrant colors, detailed textures, 4K resolution, professional photography, trending on artstation",
+      "image_path": "output/5d8e6942-7479-4583-b66b-1c93f6892a54_image.png",
+      "model_path": "output/5d8e6942-7479-4583-b66b-1c93f6892a54_model.glb",
+      "processing_time": 31.689618587493896,
+      "analysis": {
+        "subject": "Plz",
+        "style": "default",
+        "mood": "neutral",
+        "colors": [
+          "default"
+        ],
+        "setting": "unspecified"
+      },
+      "timestamp": "2025-06-04T12:10:28.067651",
+      "tags": [
+        "Plz",
+        "abstract",
+        "dramatic"
+      ],
+      "categories": [
+        "abstract"
+      ],
+      "primary_category": "abstract",
+      "styles": [],
+      "colors": [],
+      "moods": [
+        "dramatic"
+      ]
+    },
+    {
+      "request_id": "5d8cd959-14e5-4512-80da-8681274e77c9",
+      "prompt": "Plz generate big tank image.\n",
+      "expanded_prompt": "Plz generate big tank image.\n, with dramatic lighting, vibrant colors, detailed textures, 4K resolution, professional photography, trending on artstation",
+      "image_path": "output/5d8cd959-14e5-4512-80da-8681274e77c9_image.png",
+      "model_path": "output/5d8cd959-14e5-4512-80da-8681274e77c9_model.glb",
+      "processing_time": 34.39202427864075,
+      "analysis": {
+        "subject": "Plz",
+        "style": "default",
+        "mood": "neutral",
+        "colors": [
+          "default"
+        ],
+        "setting": "unspecified"
+      },
+      "timestamp": "2025-06-04T12:12:06.115979",
+      "tags": [
+        "Plz",
+        "abstract",
+        "dramatic"
+      ],
+      "categories": [
+        "abstract"
+      ],
+      "primary_category": "abstract",
+      "styles": [],
+      "colors": [],
+      "moods": [
+        "dramatic"
+      ]
+    }
+  ]
+}
